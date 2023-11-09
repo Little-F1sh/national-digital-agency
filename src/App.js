@@ -8,10 +8,6 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <div className='f-heading'>
-        <h1>Features</h1>
-        <p>Here are some Features of the WebApplication</p>
-      </div>
       <Features/>
       <Services/>
       <Subscribe/>

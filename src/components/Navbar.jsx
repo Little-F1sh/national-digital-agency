@@ -1,14 +1,18 @@
 import React from 'react';
 import {Link} from 'react-scroll';
-import logo from '../images/Logo1.png';
+import logoimage from '../images/logo2.png';
 
 function navbar() {
   return (
     <div>
       <nav>
-        <Link to='main' className='logo' smooth={true} Duration={2000}>
-          <img src={logo} alt="logo"/>
-        </Link>
+        <div className="logo">
+          <Link to='main' className='logo1'>
+            <img src={logoimage} alt="" />
+            <h6>National</h6>
+          </Link>
+          <h6 className='logo2'>Digital Agency</h6>
+        </div>
         <input className='menu-btn' type="checkbox" id='menu-btn' />
         <label className='menu-icon' for='menu-btn'>
             <span className='nav-icon'></span>
